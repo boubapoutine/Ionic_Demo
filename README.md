@@ -8,7 +8,7 @@ Creer une application ionic version 2
  
  - Ensuite on va pouvoir créer notre premier projet avec une barre de menu sur le côté :
  
-  #ionic start NomDeMonProjet ionic2
+  #ionic start NomDeMonProjet blank ionic2
   
  - On peut maintenant tester notre application sur le navigateur web avec la commande
  
