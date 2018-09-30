@@ -12,7 +12,8 @@
     Yes we can!
   </p>
   
-  <button type="button" onClick="onClick()">Clickez moi</button>
-  <p>Clicks: <a id="clicks">0</a></p>
-  
+  <p>Current count: <strong>{{ currentCount }}</strong></p> 
+
+  <button (click)="incrementCounter()">Increment</button> 
+
 </ion-content>

@@ -1,4 +1,4 @@
-import { Component, ElementRef } from '@angular/core';
+import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 @Component({
@@ -6,18 +6,20 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 
-let clicks = 0;
+//let clicks = 0;
 
 export class HomePage {
+
+  public currentCount = 0; 
+
+    public incrementCounter() { 
+     this.currentCount++; 
+    }
 
   constructor(public navCtrl: NavController) {
 
   }
   
-onClick() {
-clicks += 1;
-document.getElementById("clicks").innerHTML = clicks;
-}
 
 }
 
